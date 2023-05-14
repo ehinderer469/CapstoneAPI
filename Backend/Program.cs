@@ -61,42 +61,6 @@ public class Program
 
       return products;
     });
-    // app.MapGet("/users", async (HttpContext httpContext) =>
-    // {
-    //   string connectionString = builder.Configuration.GetConnectionString("local_database");
-
-    //   List<Customers> customers = new List<Customers>();
-
-    //   using (SqlConnection connection = new SqlConnection(connectionString))
-    //   {
-    //     SqlCommand command = new SqlCommand("GetCustomers", connection);
-    //     command.CommandType = CommandType.StoredProcedure;
-
-    //     await connection.OpenAsync();
-
-    //     using (SqlDataReader reader = await command.ExecuteReaderAsync())
-    //     {
-    //       while (await reader.ReadAsync())
-    //       {
-    //         Customers customer = new Customers();
-    //         customer.userID = reader.GetString(reader.GetOrdinal("userID"));
-    //         customer.password = reader.GetString(reader.GetOrdinal("password"));
-    //         customer.firstName = reader.GetString(reader.GetOrdinal("firstName"));
-    //         customer.lastName = reader.GetString(reader.GetOrdinal("lastName"));
-    //         customer.addressLine1 = reader.GetString(reader.GetOrdinal("addressLine1"));
-    //         customer.addressLine2 = reader.GetString(reader.GetOrdinal("addressLine2"));
-    //         customer.city = reader.GetString(reader.GetOrdinal("city"));
-    //         customer.zipcode = reader.GetString(reader.GetOrdinal("zipcode"));
-    //         customer.state = reader.GetString(reader.GetOrdinal("state"));
-    //         customer.emailAddress = reader.GetString(reader.GetOrdinal("emailAddress"));
-    //         customer.phoneNumber = reader.GetString(reader.GetOrdinal("phoneNumber"));
-    //         customers.Add(customer);
-    //       }
-    //     }
-    //   }
-
-    //   return customers;
-    // });
    app.MapPost("/login", async (HttpContext httpContext) =>
 {
     string connectionString = builder.Configuration.GetConnectionString("local_database");
