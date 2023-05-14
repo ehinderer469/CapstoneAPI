@@ -64,3 +64,4 @@
 /workspaces/CapstoneAPI/Backend/obj/Debug/net7.0/Backend.pdb
 /workspaces/CapstoneAPI/Backend/obj/Debug/net7.0/Backend.genruntimeconfig.cache
 /workspaces/CapstoneAPI/Backend/obj/Debug/net7.0/ref/Backend.dll
+/workspaces/CapstoneAPI/Backend/bin/Debug/net7.0/Newtonsoft.Json.dll

@@ -112,19 +112,23 @@ create table Purchase_History(
 
 /*Customers*/
 insert into Customers (userID, password, firstName, lastName, addressLine1, addressLine2, city, zipCode, state, emailAddress, phoneNumber)
- values ('User1', 'password', 'John', 'Doe', '133 S 42nd St', null, 'Lincoln', '68123', 'Nebraska', 'johndoe@gmail.com', '123-456-7890');
+ values ('User1', 'password', 'John', 'Doe', '133 S 42nd St', 'd', 'Lincoln', '68123', 'Nebraska', 'johndoe@gmail.com', '123-456-7890');
 
 insert into Customers (userID, password, firstName, lastName, addressLine1, addressLine2, city, zipCode, state, emailAddress, phoneNumber)
- values ('nuggetwugget2345645', 'JohnDoeIsMyHusband1234', 'Jane', 'Doe', '133 S 42nd St', null, 'Lincoln', '68123', 'Nebraska', 'janedoe@gmail.com', '123-867-5309');
+ values ('nuggetwugget2345645', 'JohnDoeIsMyHusband1234', 'Jane', 'Doe', '133 S 42nd St', 'd', 'Lincoln', '68123', 'Nebraska', 'janedoe@gmail.com', '123-867-5309');
 
 insert into Customers (userID, password, firstName, lastName, addressLine1, addressLine2, city, zipCode, state, emailAddress, phoneNumber)
  values ('EclipseFox25', 'ctyndall2@!3', 'Christian', 'Tyndall', '1780 R St', 'Room 190', 'Lincoln', '68508', 'Nebraska', 'eclipsefox25@gmail.com', '402-421-1233');
 
 insert into Customers (userID, password, firstName, lastName, addressLine1, addressLine2, city, zipCode, state, emailAddress, phoneNumber)
- values ('Anon535', 'AmveryGoodh4k3r', 'Harry', 'Gonzales', '229 John Daniel Drive', null, 'Farmington', '63640', 'Missouri', 'candida1990@hotmail.com', '573-664-1273');
+ values ('Anon535', 'AmveryGoodh4k3r', 'Harry', 'Gonzales', '229 John Daniel Drive', 'd', 'Farmington', '63640', 'Missouri', 'candida1990@hotmail.com', '573-664-1273');
 
 insert into Customers (userID, password, firstName, lastName, addressLine1, addressLine2, city, zipCode, state, emailAddress, phoneNumber)
- values ('BumbleB33', 'timjTXthKorkcmERkHpU', 'Ann', 'Gomez', '3759 Round Table Drive', null, 'Sharonville', '45241', 'Ohio', 'everette.ha3@hotmail.com', '330-201-6505');
+ values ('BumbleB33', 'timjTXthKorkcmERkHpU', 'Ann', 'Gomez', '3759 Round Table Drive', 'd', 'Sharonville', '45241', 'Ohio', 'everette.ha3@hotmail.com', '330-201-6505');
+
+ insert into Customers (userID, password, firstName, lastName, addressLine1, addressLine2, city, zipCode, state, emailAddress, phoneNumber)
+ values ('ehinderer', 'test123', 'd', 'e', 'r Round Table Drive', '3', '5', '1', '3', '5.ha3@hotmail.com', '6-201-6505');
+
 
 /*Fruits*/
 insert into Products (productID, productName, manufacturer, category, expirationDate, price)
